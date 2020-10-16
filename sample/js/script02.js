@@ -27,6 +27,11 @@ $(function(){
     })
 
     $("#button05").on("click",function(){
+        /*num1 = num1 + 10
+          $("#content").tex(num1)
+
+          $("#ball").css("margin-left",num1 + 'px')
+        */
         $("#content").text(num1 + "たす" + num2 + "は" + (num1 + num2) + "です。");
         /*$("#content").text("答えは" + (num1 + num2));
           $("#content").text(num1 + "ひく" + num2 + "は" + (num1 - num2) + "です。");
